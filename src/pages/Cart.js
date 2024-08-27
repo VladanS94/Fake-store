@@ -10,9 +10,9 @@ const Cart = ({ showCart, setShowCart }) => {
 
   return (
     <div className="cart-items transition-all duration-300 ease-in-out">
-      <div className="left-side w-[70%] h-full fixed top-0 left-0 bg-black opacity-50 transition-opacity duration-300 ease-in-out"></div>
+      <div className="left-side w-[20%] md:w-[50%] lg:w-[70%]  h-full fixed top-0 left-0 bg-black opacity-50 transition-opacity duration-300 ease-in-out"></div>
 
-      <div className="right-side h-full w-[30%] bg-gray-500 fixed top-0 right-0 ease-in-out z-10">
+      <div className="right-side h-full w-[80%] md:w-[50%] lg:w-[30%] bg-gray-500 fixed top-0 right-0 ease-in-out z-10">
         <div className="p-4">
           <button onClick={closeCart} className="text-red-600 mt-4">
             <span className="text-6xl">&#8594;</span>
